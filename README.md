@@ -1,2 +1,2 @@
 # SignInForm
-Simple sign in form using PHP and JS.
+Simple sign in form using JavaScript.
