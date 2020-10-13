@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--Language du document-->
+<html lang="fr">
+	<head>
+		<!--Encodage du document-->
+		<meta charset="UTF-8">
+		
+		<!-- Titre de la page -->
+		<title>Sign In Form</title>
+		
+		<!-- Script CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		
+		<!--Script Javascript-->
+		<script type="text/javascript" src="ok.js"></script>
+
+		<!--Script FontAwesome-->
+		<script src="https://kit.fontawesome.com/1cd05e89a0.js" crossorigin="anonymous"></script>  
+	
+	</head>
+	<body>
+		<header>
+			<h1>Sign in form</h1>
+		</header>
+		<div class="parent">
+			<div class="box">
+				<form>
+					<input id='firstname' type="text" name="firstname" placeholder="First Name">
+					<input id='lastname' type="text" name="lastname" placeholder="Last Name">
+				</form>
+				<form>
+					<input id='date' type="date" name="name" placeholder="Birthday">
+					<input id='email' type="text" name="mail" placeholder="Email">  
+				</form>
+				<form class="buttons">
+					<!-- Return to previous page -->
+					<input class="cancel" type="button" value="Cancel" onClick="javascript:history.go(-1)" /> 
+					<!-- Get data in console -->
+					<input class='ok' type="button" value="Ok" onclick='getvalues()'/>
+				</form>
+			</div>
+		</div>	
+	</body>
+</html>

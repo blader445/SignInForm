@@ -1,0 +1,87 @@
+body {
+  background-color: #1f1f1f;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+/* Boutons */
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.ok {
+  background-color: #09B352;
+  border: none;
+  color: white;
+  padding: 0.4em 31.75%;
+  text-decoration: none;
+  margin: 0.4em 0px;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: #B0534C;
+  border: none;
+  color: white;
+  padding: 0.4em 11%;
+  text-decoration: none;
+  margin: 0.4em 0px;
+  cursor: pointer;
+}
+
+/* Inputs */
+input[type=text], input[type=date] {
+  background-color: #FFFFFF;
+  border: none;
+  color: grey;
+  text-decoration: none;
+  margin: 0.4em;
+  cursor: text;
+}
+
+input[type=text] {
+  padding: 1em 32px;
+}
+
+input[type=date] {
+  padding: 1em 44px;
+}
+
+/*Always centered*/
+.box {
+  display: inline-block;
+}
+
+body {
+  font-family: sans-serif;
+  color: grey;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
